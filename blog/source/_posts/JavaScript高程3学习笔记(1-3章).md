@@ -6,7 +6,7 @@ tags:
 
 ## [第二章]在HTML中使用JavaScript
 
-### defer与async
+#### defer与async
 使用defer属性可以让脚本在文档完全呈现之后在执行。延迟脚本总是按照指定他们的顺序执行。
 使用async属性可以表示当前脚本不必等待其他脚本，也不必阻塞文档呈现。不能保证异步脚本按照他们在页面中数显的顺序执行。
 defer、async属性仅适用于外部脚本。
@@ -98,12 +98,13 @@ object的每个实例都具有下列属性和方法：
 
 **typeof 操作符：**
 对一个值使用typeof操作符可能返回下列某个字符串：
-> "undefined" *——如果这个值未定义；*
-> "boolean" *——如果这个值是布尔值；*
-> "string" *——如果这个值是字符串；*
-> "number" *——如果这个值是数值；*
-> "object" *——如果这个值是对象或者null；*
-> "function" *——如果这个值是函数；*
+"undefined" *——如果这个值未定义；*
+"boolean" *——如果这个值是布尔值；*
+"string" *——如果这个值是字符串；*
+"number" *——如果这个值是数值；*
+"object" *——如果这个值是对象或者null；*
+"function" *——如果这个值是函数；*
+> Chrome7,Safari5对正则表达式应用typeof会返回"function"。其他则返回"object"
 
 #### 操作符
 
