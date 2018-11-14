@@ -28,12 +28,12 @@ var foo;
 var bar = undefined;
 // var baz;
 
-consolelog(foo); // "undefined"
-consolelog(bar); // "undefined"
-consolelog(baz); // 产生错误
+console.log(foo); // "undefined"
+console.log(bar); // "undefined"
+console.log(baz); // 产生错误
 
-consolelog(typeof foo); // "undefined"
-consolelog(typeof baz); // "undefined"
+console.log(typeof foo); // "undefined"
+console.log(typeof baz); // "undefined"
 ```
 
 **Null类型：**00
